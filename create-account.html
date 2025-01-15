@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إنشاء حساب</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-3">
+        <h1>إنشاء حساب جديد</h1>
+    </header>
+    <div class="container mt-5">
+        <form id="create-account-form">
+            <div class="mb-3">
+                <label for="student-id" class="form-label">رقم المدرسي</label>
+                <input type="text" id="student-id" class="form-control" placeholder="أدخل رقم المدرسي">
+            </div>
+            <div class="mb-3">
+                <label for="first-name" class="form-label">الاسم الأول</label>
+                <input type="text" id="first-name" class="form-control" placeholder="أدخل الاسم الأول">
+            </div>
+            <div class="mb-3">
+                <label for="last-name" class="form-label">الاسم الأخير</label>
+                <input type="text" id="last-name" class="form-control" placeholder="أدخل الاسم الأخير">
+            </div>
+            <div class="mb-3">
+                <label for="class" class="form-label">الصف</label>
+                <select id="class" class="form-select">
+                    <option value="الصف الأول">الصف الأول</option>
+                    <option value="الصف الثاني">الصف الثاني</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">حفظ</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
