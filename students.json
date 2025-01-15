@@ -1,0 +1,18 @@
+[
+    {
+        "id": "123",
+        "name": "أحمد علي",
+        "class": "الصف الأول",
+        "percentage": 85,
+        "result": "جيد جدًا",
+        "picture": "assets/images/student1.jpg"
+    },
+    {
+        "id": "124",
+        "name": "محمد حسن",
+        "class": "الصف الثاني",
+        "percentage": 92,
+        "result": "ممتاز",
+        "picture": "assets/images/student2.jpg"
+    }
+]
